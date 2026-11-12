@@ -43,7 +43,7 @@ Search has fundamentally shifted from **10 blue links** to **AI-generated answer
 
 ### 1. Clone & Install
 ```bash
-git clone https://github.com
+git clone https://github.com/4hmed1/Rank-Max.git
 cd rankmax
 npm install
 npm run build
