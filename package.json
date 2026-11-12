@@ -1,20 +1,46 @@
 {
   "name": "rankmax",
-  "version": "0.1.0",
-  "description": "Check if AI search can cite your website",
+  "version": "1.0.0",
+  "description": "Enterprise SEO, AEO (Answer Engine Optimization) & GEO (Generative Engine Optimization) CLI tool, AI citation simulator, and multi-agent auto-fix engine for ChatGPT, Perplexity, and Google AI Overviews.",
   "type": "module",
   "bin": {
     "rankmax": "./dist/cli.js"
   },
   "files": [
-    "dist"
+    "dist",
+    "SKILL.md",
+    "README.md"
   ],
   "scripts": {
     "dev": "tsx src/cli.ts",
     "build": "tsc",
-    "test": "vitest"
+    "test": "vitest",
+    "prepublishOnly": "npm run build"
   },
+  "keywords": [
+    "seo",
+    "aeo",
+    "geo",
+    "answer-engine-optimization",
+    "generative-engine-optimization",
+    "llms-txt",
+    "ai-search",
+    "chatgpt-seo",
+    "perplexity-seo",
+    "json-ld",
+    "claude-skill",
+    "seo-audit-cli"
+  ],
+  "author": "Muhammad Ahmed <info@maxdigitalstudio.site> (https://maxdigitalstudio.site)",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com"
+  },
+  "homepage": "https://github.com",
+  "bugs": {
+    "url": "https://github.com"
+  },
   "engines": {
     "node": ">=18"
   },

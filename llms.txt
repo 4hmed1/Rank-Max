@@ -1,0 +1,14 @@
+# Rank Max (rankmax)
+
+> Open-source CLI tool and multi-agent optimization engine that audits websites for SEO, Answer Engine Optimization (AEO), and Generative Engine Optimization (GEO), simulates AI citations, and generates production fix packs.
+
+## Core Commands
+- `npx rankmax scan <url>`: Audits 10 SEO/AEO/GEO signals and scores readiness from 0–100.
+- `npx rankmax crawl <url>`: Deep-crawls sitemaps and internal links to find weak or broken pages.
+- `npx rankmax simulate <url>`: Simulates ChatGPT/Perplexity passage extraction and calculates AI Citation Probability.
+- `npx rankmax agent <url>`: Dispatches 4 sub-agents to auto-generate `robots.txt`, `llms.txt`, JSON-LD `@graph` schema, and Open Graph tags.
+
+## Links
+- [GitHub Repository](https://github.com)
+- [Claude & Cursor Agent Skill](https://github.com/blob/main/SKILL.md)
+- [Built by Max Digital Studio](https://maxdigitalstudio.site)
